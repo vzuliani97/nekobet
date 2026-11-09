@@ -225,3 +225,7 @@ cosign verify ghcr.io/vzuliani97/paypoint-backend:main \
 MIT.
 
 Independent portfolio reconstruction based on engineering patterns from professional work. It uses synthetic data and contains no employer code or confidential information.
+
+## Portfolio
+
+One of four connected projects at [vzuliani97.github.io](https://vzuliani97.github.io). The others: [Yamesi Core](https://github.com/vzuliani97/yamesi) (business operations, online at [yamesi.netlify.app](https://yamesi.netlify.app)), [OpsCircuit](https://github.com/vzuliani97/opscircuit) (delivery and operations of NekoBet), [Applied Cyber Security](https://github.com/vzuliani97/applied-cybersecurity) (security assessment of NekoBet, Yamesi and OpsCircuit). Case study: https://vzuliani97.github.io/work/nekobet/
