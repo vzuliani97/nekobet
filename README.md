@@ -38,7 +38,7 @@ Everything in this repository, end to end:
 - **Live betting:** a simulated odds feed with a single leader (`pg_try_advisory_xact_lock`) for four sports, each with its own clock and scoring model: football and ice hockey (Poisson goals, three-way result, double chance, total goals, both teams to score), basketball (quarters and overtime, a normal model of points, winner and total points) and baseball (innings and extra innings, Poisson runs, winner and total runs), Server-Sent Events to the browser, `ODDS_CHANGED` when the price moved, and settlement of every market paid exactly once.
 - **Casino:** a seamless wallet whose provider callbacks are idempotent by transaction id, with rollback tombstones; five fictitious games, three of them slot machines whose reels show the outcome the provider decided.
 - **Frontend (React):** the cashier with top-ups; the sportsbook with sports and leagues, each sport's clock and score, an event page with a live tracker drawn for each sport (pitch, court, diamond or rink) and every market, bet slip and my bets; the casino lobby with an animated slot machine; the admin screens.
-- **Delivery and quality:** Docker Compose, Prometheus metrics, multi-arch images published by CI and deployed by Argo CD in [OpsCircuit](https://github.com/vzuliani97/opscircuit), 60 automated tests, CodeQL, Gitleaks and `npm audit`.
+- **Delivery and quality:** Docker Compose, Prometheus metrics, multi-arch images published by CI and deployed by Argo CD in [OpsCircuit](https://github.com/vzuliani97/opscircuit), 69 automated tests, CodeQL, Gitleaks and `npm audit`.
 
 | Problem | How NekoBet handles it | Proof |
 |---|---|---|
